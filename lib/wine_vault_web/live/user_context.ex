@@ -1,5 +1,5 @@
 defmodule WineVaultWeb.UserContext do
-  import Phoenix.LiveView
+  import Phoenix.Component
 
   alias WineVault.Accounts
 

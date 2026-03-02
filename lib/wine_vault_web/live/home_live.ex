@@ -26,7 +26,7 @@ defmodule WineVaultWeb.HomeLive do
 
   def render(assigns) do
     ~H"""
-    <Layouts.app flash={@flash} current_scope={nil}>
+    <Layouts.app flash={@flash} current_scope={%{}}>
       <section class="space-y-10">
         <div class="rounded-3xl border border-zinc-200 bg-gradient-to-br from-zinc-900 to-zinc-700 p-8 text-white">
           <h1 class="text-4xl font-semibold">WineVault SaaS</h1>

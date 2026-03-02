@@ -36,7 +36,7 @@ defmodule WineVaultWeb.WineLiveShow do
 
   def render(assigns) do
     ~H"""
-    <Layouts.app flash={@flash} current_scope={nil}>
+    <Layouts.app flash={@flash} current_scope={%{}}>
       <section class="space-y-8">
         <div class="rounded-2xl border border-zinc-200 p-6 bg-gradient-to-br from-rose-50 to-white">
           <h1 class="text-3xl font-semibold">{@wine.winery} {@wine.name} ({@wine.vintage})</h1>

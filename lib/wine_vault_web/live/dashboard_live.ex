@@ -14,7 +14,7 @@ defmodule WineVaultWeb.DashboardLive do
 
   def render(assigns) do
     ~H"""
-    <Layouts.app flash={@flash} current_scope={nil}>
+    <Layouts.app flash={@flash} current_scope={%{}}>
       <section class="space-y-8">
         <div>
           <h1 class="text-3xl font-semibold">Dashboard Insights</h1>
